@@ -173,24 +173,73 @@ It helps users:
 - Learn Salesforce hands-on
 - Complete Trailhead challenges
 - Experiment without affecting real company data
+  
+## how to create playground
+- To create a new Trailhead Playground, click the name of your org and click Create Playground. Give your playground a name, click Create, and that’s it! Now you have an org that you can use to complete hands-on challenges and projects, and test new features and code.
+
+## Get your Username and Reset your password
+### If your playground has the Playground Starter app, follow these steps to reset your password.
+- Click the Get Your Login Credentials tab. Here you can see your Trailhead Playground username. 
+- Click Reset My Password. This sends an email to the address associated with your username.
+- Click the link in the email.
+- Enter a new password, confirm it, and click Change Password.
+### Your Playground Doesn’t Have the Playground Starter App
+- Launch your Trailhead Playground by clicking Launch from any hands-on challenge
+- Click Setup and select Setup.
+- Enter UsersCopy in Quick Find and select Users.
+- Locate your name on the list of users. Check the box next to your name. Take note of the username. This is the username for your Trailhead Playground.
+- Click Reset Password(s) and OK. This sends an email to the email address associated with your username. Be sure to check your spam folder if you don't see the email.
+- Click the link in the email.
+- Enter a new password, confirm it, and click Change Password.
+- Now you have your username and password for your Trailhead playground. If you're planning on creating multiple Trailhead Playgrounds, use a password manager to store your credentials.
+
+## Connect, Disconnect, or Rename a Trailhead Playground
+From any hands-on challenge or project step, click the name of your playground and then click Manage Orgs.
+- From here, click Rename  next to one of your Trailhead Playgrounds to rename it.
+- click Disconnect  to disconnect it. 
+- To connect a Trailhead Playground or Developer Edition org, click Connect Org. 
+- To create a playground, click Create Playground.
 
 ---
 
 # Important Salesforce Objects
 
-1️⃣ Account
+1️ Account
 Represents a company or organization.
 Example:
 Engineering College
+To Create Account:
+- If you don’t already have your Trailhead Playground open, scroll down to the Challenge section and click Launch to open it.
+- Click the App Launcher (App Launcher icon), and click the Sales tile.
+- In the navigation bar, click Accounts.
+- Click New.
+- For Account Name, enter Maria’s MachiningCopy.
+- For Type, choose Customer - Direct.
+- For Industry, choose Manufacturing.
+- Click Save.
 
-2️⃣ Contact
+2️ Contact
 Represents a person associated with an Account.
 Example:
 Student or Parent
+To Create Account:
+- In the Contacts related list, click New.
+- For First Name, enter MariaCopy.
+- For Last Name, enter VillaricoCopy.
+- For Phone, enter (650) 555-6789Copy.
+- Click Save.
 
-3️⃣ Opportunity
+3️ Opportunity
 Represents a potential business deal.
-Example:
+To make an opportunity for example data:
+- If you’re not viewing the Maria’s Machining account, click Accounts in the navigation bar, then click Maria’s Machining.
+- From the Contacts related list, click Maria Villarico.
+- In the Opportunities related list, click New.
+- For Opportunity Name, enter Backup generator for expansion siteCopy.
+- For Amount, enter 200000Copy.
+- For Close Date, choose a day one week from today.
+- For Stage, choose Prospecting.
+- Click Save
 
 ---
 
