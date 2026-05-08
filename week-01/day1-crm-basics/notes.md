@@ -1,4 +1,4 @@
-## Salesforce-training  Day 1 Notes
+# Salesforce-training  Day 1 Notes
 
 # What is Salesforce?
 
