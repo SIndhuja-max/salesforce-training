@@ -1,1 +1,21 @@
+# Learnings – Day 02
 
+- Salesforce is a cloud-based CRM platform.
+- Salesforce structure includes Apps, Objects, Records, and Fields.
+- Apps are collections of related objects and tools.
+- Objects store data like database tables.
+- Tabs help users access objects in the UI.
+- Salesforce navigation is simple using App Launcher and Tabs.
+- Development in Salesforce happens through:
+  - Configuration (No Code)
+  - Coding (Apex)
+- Configuration is faster and preferred for simple tasks.
+- Coding is used for complex business logic and integrations.
+- Apex is Salesforce’s programming language.
+- APIs help Salesforce connect with external systems.
+- Salesforce uses multi-tenant architecture.
+- Multiple organizations can securely share the same infrastructure.
+- Salesforce Admins mainly use clicks and configuration.
+- Salesforce Developers use code for advanced customization.
+- CRM concepts like Account, Contact, and Opportunity are implemented using objects.
+- Learned how Apps, Objects, and Tabs work together in Salesforce.
