@@ -62,3 +62,28 @@ Today I understood how companies use Salesforce automation to reduce repetitive 
 I also learned that automation is not just about technology. It is mainly about improving business processes, reducing human effort, and increasing productivity.
 
 Flow Builder helps organizations automate tasks without coding, making enterprise automation easier and faster to implement.
+
+---
+# Reflection – Why Automation Matters
+
+Business automation is important because companies handle large amounts of repetitive work every day. Manual processes are slow, error-prone, and difficult to manage at scale.
+
+Automation helps organizations:
+- Save time
+- Improve accuracy
+- Increase productivity
+- Reduce operational costs
+- Maintain process consistency
+
+Salesforce Flow Builder allows businesses to automate workflows without writing code. This makes automation accessible to administrators and business users.
+
+I learned that automation is not only about technology. It is mainly about improving business efficiency and reducing repetitive human effort.
+
+Companies use automation for:
+- Notifications
+- Approvals
+- Record updates
+- Customer communication
+- Workflow management
+
+Automation is extremely important in enterprise systems because it improves reliability, scalability, and overall operational performance.
