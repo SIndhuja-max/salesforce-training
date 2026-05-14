@@ -178,7 +178,7 @@ No-code automation tools like Flow Builder make enterprise automation faster and
 | reflection.md | Reflection on business automation |
 | doubts-questions.md | Important questions and answers |
 | flow-diagram.png | Flow automation diagram |
-| screenshots/ | Trailhead completion screenshots |
+| screenshots/ | Trailhead tasks completion screenshots |
 
 ---
 
