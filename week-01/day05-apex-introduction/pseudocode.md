@@ -30,11 +30,11 @@ The system should:
 ---
 
 # Pseudocode
-
+```text
 IF remaining seats = 0  
 THEN block registration  
 ELSE allow enrollment
-
+```
 ---
 
 # Explanation
@@ -63,10 +63,10 @@ Students with low attendance should receive automatic warnings.
 ---
 
 # Pseudocode
-
+```text
 IF attendance < 75%  
 THEN send warning notification
-
+```
 ---
 
 # Explanation
@@ -96,11 +96,11 @@ Eligibility depends on:
 ---
 
 # Pseudocode
-
+```text
 IF marks > 90  
 AND attendance > 85  
 THEN approve scholarship
-
+```
 ---
 
 # Explanation
@@ -124,10 +124,10 @@ Students paying fees after the due date should receive penalties.
 ---
 
 # Pseudocode
-
+```text
 IF payment date > due date  
 THEN add late payment penalty
-
+```
 ---
 
 # Explanation
@@ -155,10 +155,10 @@ Students should complete prerequisite courses before enrolling in advanced cours
 ---
 
 # Pseudocode
-
+```text
 IF prerequisite course is not completed  
 THEN block enrollment
-
+```
 ---
 
 # Explanation
@@ -184,10 +184,10 @@ When a new course is created, the system should assign faculty automatically.
 ---
 
 # Pseudocode
-
+```text
 IF new course is created  
 THEN assign available faculty
-
+```
 ---
 
 # Explanation
@@ -214,11 +214,11 @@ Students should only be admitted if documents are verified.
 ---
 
 # Pseudocode
-
+```text
 IF all documents are verified  
 THEN approve admission  
 ELSE reject application
-
+```
 ---
 
 # Explanation
@@ -245,11 +245,11 @@ Students should only be allowed to attend exams if attendance is above the minim
 ---
 
 # Pseudocode
-
+```text
 IF attendance >= 75%  
 THEN allow exam registration  
 ELSE block exam registration
-
+```
 ---
 
 # Explanation
@@ -272,11 +272,11 @@ A student email should not already exist in the system.
 ---
 
 # Pseudocode
-
+```text
 IF email already exists  
 THEN show error message  
 ELSE create student record
-
+```
 ---
 
 # Explanation
@@ -299,10 +299,10 @@ A certificate should be generated automatically after course completion.
 ---
 
 # Pseudocode
-
+```text
 IF course status = completed  
 THEN generate certificate
-
+```
 ---
 
 # Explanation
