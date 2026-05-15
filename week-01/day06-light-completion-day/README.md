@@ -1,4 +1,4 @@
-# Salesforce Summer Program – Light Completion Day
+# Salesforce-training : Light Completion Day
 
 ## Overview
 This repository contains the work completed for the Salesforce Summer Program Light Completion Sprint. The objective of this task was to improve Trailhead progress, understand additional Salesforce concepts, and gain high-level awareness of enterprise development workflows and tools.
