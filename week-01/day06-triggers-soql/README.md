@@ -1,4 +1,4 @@
-# Salesforce Summer Program – Day 6
+# Salesforce-training : Day 6
 ## SOQL, Apex Triggers & Event-Driven Automation
 
 This project contains my learning and understanding of Salesforce querying, Apex Triggers, automation logic, and event-driven systems.
