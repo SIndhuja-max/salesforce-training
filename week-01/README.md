@@ -1,4 +1,4 @@
-# Salesforce training Journey : Week-01
+# Salesforce training : Week-01
 
 > A complete hands-on Salesforce learning repository covering CRM fundamentals, automation, Apex programming, enterprise workflows, asynchronous processing, Salesforce DX, CLI workflows, testing strategies, and GitHub-based development practices using a real-world College Management System example.
 
