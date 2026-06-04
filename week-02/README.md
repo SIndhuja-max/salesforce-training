@@ -1,4 +1,4 @@
-# Salesforce Summer Program 
+# Salesforce Training : week-02 
 
 ## Week Overview
 
