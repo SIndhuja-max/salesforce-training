@@ -1,4 +1,4 @@
-# Salesforce Summer Program - Day 8
+# Salesforce training - Day 8
 
 # Lightning Web Components (LWC) Basics
 
