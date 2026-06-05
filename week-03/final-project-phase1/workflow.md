@@ -103,9 +103,9 @@ A student submits a course registration.
 Example:
 
 ```text
-Student: DVS
+Student: Sindhuja
 
-Course: Salesforce Development
+Course: Salesforce Fundamentals
 
 Status: Pending
 ```
@@ -437,6 +437,9 @@ This workflow provides:
 * Better User Experience
 
 ---
+
+# Screenshot
+![Example](screenshots/example.png)
 
 # Enterprise Perspective
 
