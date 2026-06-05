@@ -200,7 +200,7 @@ Attendance__c >= 0.75,
 
 ## Screenshot
 
-![Eligibility Formula](screenshots/student-eligibility-formula.png)
+![Eligibility Formula](screenshots/students-eligibility-formula.png)
 
 ---
 
