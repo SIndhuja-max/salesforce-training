@@ -149,11 +149,11 @@ Fields:
 
 Add object architecture screenshots:
 
-![Student Object](screenshots/student-object.png)
+![Student Object](screenshots/Student-object.png)
 
-![Faculty Object](screenshots/faculty-object.png)
+![Faculty Object](screenshots/Faculty-object.png)
 
-![Course Object](screenshots/course-object.png)
+![Course Object](screenshots/Course-object.png)
 
 ---
 
