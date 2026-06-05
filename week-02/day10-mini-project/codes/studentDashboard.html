@@ -1,0 +1,26 @@
+<template>
+    <lightning-card title="Student Dashboard">
+        <template if:true={students}>
+            <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Attendance</th>
+                        <th>Eligibility</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template for:each={students} for:item="student">
+                        <tr key={student.Id}>
+                            <td>{student.Name}</td>
+                            <td>{student.Email__c}</td>
+                            <td>{student.Attendance__c}</td>
+                            <td>{student.Student_Eligibility_Status__c}</td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </template>
+    </lightning-card>
+</template>
