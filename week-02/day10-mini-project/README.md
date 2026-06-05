@@ -1,4 +1,4 @@
-# Salesforce Summer Program - Day 10 Mini Project
+# Salesforce Training - Day 10 Mini Project
 
 # College Management System
 
