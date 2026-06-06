@@ -249,7 +249,7 @@ Remaining Seats = 39
 
 ## Screenshot
 
-![course-seat](../screenshots/flows/course-seat-update-flow.png)
+![course-seat](../screenshots/flows/seat-update-flow.png)
 
 
 ---
