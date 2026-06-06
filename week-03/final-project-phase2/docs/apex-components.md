@@ -100,7 +100,7 @@ trigger CourseTrigger on Course__c (before update) {
 
 ### Screenshot
 
-![course-trigger](screenshots/apex/course-trigger.png)
+![course trigger](screenshots/apex/course-trigger.png)
 
 ---
 
