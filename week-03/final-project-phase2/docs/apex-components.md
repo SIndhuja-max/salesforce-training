@@ -100,7 +100,7 @@ trigger CourseTrigger on Course__c (before update) {
 
 ### Screenshot
 
-![course_trigger](screenshots/apex/course-trigger.png)
+![course_trigger](../screenshots/apex/course-trigger.png)
 
 ---
 
@@ -172,7 +172,7 @@ public with sharing class StudentController {
 ### Screenshot
 
 
-![student-controller](screenshots/apex/student-controller.png)
+![student-controller](../screenshots/apex/student-controller.png)
 
 
 ---
@@ -245,7 +245,7 @@ public with sharing class FacultyController {
 
 ### Screenshot
 
-![faculty-controller](screenshots/apex/faculty-controller.png)
+![faculty-controller](../screenshots/apex/faculty-controller.png)
 
 
 ---
