@@ -1,4 +1,4 @@
-# Salesforce Summer Program – Week 3
+# Salesforce Training– Week 3
 
 ## Overview
 
