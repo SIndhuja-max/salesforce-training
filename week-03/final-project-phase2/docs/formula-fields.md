@@ -51,10 +51,8 @@ IF(
 
 ### Screenshot
 
-```text
-Insert Screenshot:
-screenshots/formula-fields/attendance-status.png
-```
+![attendance](../screenshots/formula-fields/attendance-status.png)
+
 
 ---
 
@@ -97,10 +95,9 @@ IF(
 
 ### Screenshot
 
-```text
-Insert Screenshot:
-screenshots/formula-fields/student-eligibility-status.png
-```
+
+![eligibility](../screenshots/formula-fields/student-eligibility-status.png)
+
 
 ---
 
@@ -142,10 +139,8 @@ Total_Seats__c - Filled_Seats__c
 
 ### Screenshot
 
-```text
-Insert Screenshot:
-screenshots/formula-fields/remaining-seats.png
-```
+![seats](../screenshots/formula-fields/remaining-seats.png)
+
 
 ---
 
@@ -187,10 +182,8 @@ IF(
 
 ### Screenshot
 
-```text
-Insert Screenshot:
-screenshots/formula-fields/course-full-status.png
-```
+![course](../screenshots/formula-fields/course-full-status.png)
+
 
 ---
 
@@ -227,10 +220,8 @@ Course__r.Course_Full_Status__c = "Course Full"
 
 ### Screenshot
 
-```text
-Insert Screenshot:
-screenshots/formula-fields/course-full-check.png
-```
+![course-full](../screenshots/formula-fields/course-full-check.png)
+
 
 ---
 
@@ -277,10 +268,7 @@ Unique = TRUE
 
 ### Screenshot
 
-```text
-Insert Screenshot:
-screenshots/formula-fields/registration-key.png
-```
+![registration](../screenshots/formula-fields/registration-key.png)
 
 ---
 
