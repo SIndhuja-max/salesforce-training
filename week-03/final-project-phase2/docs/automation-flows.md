@@ -119,7 +119,7 @@ Pending
 
 ## Screenshot
 
-![registration approval](screenshots/flows/registration-approval-flow.png)
+![registration approval](../screenshots/flows/registration-approval-flow.png)
 
 
 ---
