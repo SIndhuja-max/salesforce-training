@@ -218,10 +218,6 @@ Course__r.Course_Full_Status__c = "Course Full"
 - Supports registration validation.
 - Improves data integrity.
 
-### Screenshot
-
-![course-full](../screenshots/formula-fields/course-full-check.png)
-
 
 ---
 
