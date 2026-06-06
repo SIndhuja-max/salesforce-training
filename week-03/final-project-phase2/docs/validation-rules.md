@@ -50,7 +50,7 @@ Email Field
 
 ### Screenshot
 
-![student](../screenshots/validation-rules/student-email-mandatory.png)
+![student](../screenshots/validation-rules/email-mandatory.png)
 
 
 ---
@@ -92,7 +92,7 @@ Top of Page
 
 ### Screenshot
 
-![atudent](../screenshots/validation-rules/student-attendance-max100.png)
+![atudent](../screenshots/validation-rules/attendance-max100.png)
 
 
 ---
@@ -139,7 +139,7 @@ Top of Page
 
 ### Screenshot
 
-![course](../screenshots/validation-rules/course-seat-limit-check.png)
+![course](../screenshots/validation-rules/seat-limit-check.png)
 
 
 ---
@@ -181,7 +181,7 @@ Top of Page
 
 ### Screenshot
 
-![course](../screenshots/validation-rules/course-total-seats-positive.png)
+![course](../screenshots/validation-rules/positive-seat-validation.png)
 
 
 ---
@@ -227,7 +227,7 @@ Top of Page
 
 ### Screenshot
 
-![registration](../screenshots/validation-rules/registration-future-date.png)
+![registration](../screenshots/validation-rules/registration-date-check.png)
 
 
 ---
@@ -313,9 +313,6 @@ Unique
 - Maintains enrollment integrity.
 - Ensures accurate reporting.
 
-### Screenshot
-
-![duplicate](../screenshots/validation-rules/duplicate-registration-prevention.png)
 
 
 ---
