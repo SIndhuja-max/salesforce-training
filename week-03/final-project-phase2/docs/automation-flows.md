@@ -119,10 +119,8 @@ Pending
 
 ## Screenshot
 
-```text
-Insert Screenshot:
-screenshots/flows/registration-approval-flow.png
-```
+![registration approval](screenshots/flows/registration-approval-flow.png)
+
 
 ---
 
@@ -251,10 +249,8 @@ Remaining Seats = 39
 
 ## Screenshot
 
-```text
-Insert Screenshot:
-screenshots/flows/course-seat-update-flow.png
-```
+![course-seat](screenshots/flows/course-seat-update-flow.png)
+
 
 ---
 
