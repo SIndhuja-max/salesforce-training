@@ -69,10 +69,8 @@ Student Object
 
 ## Screenshot
 
-```text
-Insert Screenshot:
-screenshots/reports/student-attendance-report.png
-```
+![repoer](../screenshots/reports/student-attendance-report.png)
+
 
 ---
 
@@ -121,10 +119,8 @@ Course Object
 
 ## Screenshot
 
-```text
-Insert Screenshot:
-screenshots/reports/course-enrollment-report.png
-```
+![report](../screenshots/reports/course-enrollment-report.png)
+
 
 ---
 
@@ -172,10 +168,8 @@ Registration Object
 
 ## Screenshot
 
-```text
-Insert Screenshot:
-screenshots/reports/registration-status-report.png
-```
+![report](../screenshots/reports/registration-status-report.png)
+
 
 ---
 
@@ -249,10 +243,8 @@ Management Decisions
 
 ## Screenshot
 
-```text
-Insert Screenshot:
-screenshots/dashboards/college-management-dashboard.png
-```
+![report](../screenshots/dashboards/college-management-dashboard.png)
+
 
 ---
 
@@ -298,10 +290,8 @@ Student Records
 
 ## Screenshot
 
-```text
-Insert Screenshot:
-screenshots/dashboards/student-dashboard.png
-```
+![report](../screenshots/dashboards/student-dashboard.png)
+
 
 ---
 
@@ -347,10 +337,8 @@ Faculty Records
 
 ## Screenshot
 
-```text
-Insert Screenshot:
-screenshots/dashboards/faculty-dashboard.png
-```
+![dashboard](../screenshots/dashboards/faculty-dashboard.png)
+
 
 ---
 
