@@ -50,10 +50,8 @@ Email Field
 
 ### Screenshot
 
-```text
-Insert Screenshot:
-screenshots/validation-rules/student-email-mandatory.png
-```
+![student](../screenshots/validation-rules/student-email-mandatory.png)
+
 
 ---
 
@@ -94,10 +92,8 @@ Top of Page
 
 ### Screenshot
 
-```text
-Insert Screenshot:
-screenshots/validation-rules/student-attendance-max100.png
-```
+![atudent](../screenshots/validation-rules/student-attendance-max100.png)
+
 
 ---
 
@@ -143,10 +139,8 @@ Top of Page
 
 ### Screenshot
 
-```text
-Insert Screenshot:
-screenshots/validation-rules/course-seat-limit-check.png
-```
+![course](../screenshots/validation-rules/course-seat-limit-check.png)
+
 
 ---
 
@@ -187,10 +181,8 @@ Top of Page
 
 ### Screenshot
 
-```text
-Insert Screenshot:
-screenshots/validation-rules/course-total-seats-positive.png
-```
+![course](../screenshots/validation-rules/course-total-seats-positive.png)
+
 
 ---
 
@@ -235,10 +227,8 @@ Top of Page
 
 ### Screenshot
 
-```text
-Insert Screenshot:
-screenshots/validation-rules/registration-future-date.png
-```
+![registration](../screenshots/validation-rules/registration-future-date.png)
+
 
 ---
 
@@ -280,10 +270,8 @@ Top of Page
 
 ### Screenshot
 
-```text
-Insert Screenshot:
-screenshots/validation-rules/course-capacity-check.png
-```
+![course](../screenshots/validation-rules/course-capacity-check.png)
+
 
 ---
 
@@ -327,10 +315,8 @@ Unique
 
 ### Screenshot
 
-```text
-Insert Screenshot:
-screenshots/validation-rules/duplicate-registration-prevention.png
-```
+![duplicate](../screenshots/validation-rules/duplicate-registration-prevention.png)
+
 
 ---
 
