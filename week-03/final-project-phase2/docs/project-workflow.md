@@ -58,14 +58,6 @@ Course: Salesforce Development
 Date: 01-06-2026
 ```
 
----
-
-## Screenshot
-
-```text
-Insert Screenshot:
-screenshots/workflow/student-registration.png
-```
 
 ---
 
@@ -116,14 +108,6 @@ Valid?
  Continue   Error Message
 ```
 
----
-
-## Screenshot
-
-```text
-Insert Screenshot:
-screenshots/workflow/validation-rule-execution.png
-```
 
 ---
 
@@ -170,14 +154,6 @@ Course Full
 Seats Available
 ```
 
----
-
-## Screenshot
-
-```text
-Insert Screenshot:
-screenshots/workflow/formula-fields-evaluation.png
-```
 
 ---
 
@@ -221,14 +197,6 @@ Faculty Review
 Approved / Rejected
 ```
 
----
-
-## Screenshot
-
-```text
-Insert Screenshot:
-screenshots/workflow/approval-workflow.png
-```
 
 ---
 
@@ -272,14 +240,6 @@ After:
 Filled Seats = 21
 ```
 
----
-
-## Screenshot
-
-```text
-Insert Screenshot:
-screenshots/workflow/seat-update-flow.png
-```
 
 ---
 
@@ -311,14 +271,6 @@ FacultyController
 Faculty Records
 ```
 
----
-
-## Screenshot
-
-```text
-Insert Screenshot:
-screenshots/workflow/apex-processing.png
-```
 
 ---
 
@@ -366,15 +318,6 @@ Tracks approvals.
 
 ---
 
-## Screenshot
-
-```text
-Insert Screenshot:
-screenshots/workflow/reporting-layer.png
-```
-
----
-
 # Step 9: Dashboard Layer
 
 Reports are transformed into visual insights.
@@ -402,15 +345,6 @@ Displays student information.
 ### Faculty Dashboard
 
 Displays faculty information.
-
----
-
-## Screenshot
-
-```text
-Insert Screenshot:
-screenshots/workflow/dashboard-layer.png
-```
 
 ---
 
