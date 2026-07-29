@@ -1,4 +1,4 @@
-# 🚀 Salesforce Interview Readiness Bootcamp – Day 2 Assignment
+# 🚀 Salesforce Interview Readiness Bootcamp – Day 2
 
 ## 📖 Overview
 
