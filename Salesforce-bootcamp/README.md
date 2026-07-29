@@ -1,6 +1,6 @@
-# 🚀 Salesforce Interview Readiness Bootcamp – Day 2
+#  Salesforce Interview Readiness Bootcamp – Day 2
 
-## 📖 Overview
+## Overview
 
 This project was developed as part of the **Salesforce Interview Readiness Bootcamp – Day 2 Assignment**.
 
@@ -8,7 +8,7 @@ The objective was to automate the student job application process using an **Ape
 
 ---
 
-# 🎯 Objective
+#  Objective
 
 The trigger enforces the following business rules:
 
@@ -20,7 +20,7 @@ The trigger enforces the following business rules:
 
 ---
 
-# 🏗 Objects Used
+#  Objects Used
 
 ## Student__c
 
@@ -52,7 +52,7 @@ The trigger enforces the following business rules:
 
 ---
 
-# ⚡ Apex Trigger
+# Apex Trigger
 
 **Trigger Name:** `ApplicationTrigger`
 
@@ -60,7 +60,7 @@ The trigger enforces the following business rules:
 
 ---
 
-# 🤔 Why Apex Trigger?
+#  Why Apex Trigger?
 
 An Apex Trigger was used because the validation requires checking data across multiple related objects (Student, Job, and Application) before saving the record.
 
@@ -68,7 +68,7 @@ The trigger also automatically assigns the default Status field.
 
 ---
 
-# 🤔 Why Before Insert?
+#  Why Before Insert?
 
 A **Before Insert Trigger** allows Salesforce to:
 
@@ -79,7 +79,7 @@ A **Before Insert Trigger** allows Salesforce to:
 
 ---
 
-# 🚀 Bulkification
+#  Bulkification
 
 The trigger follows Salesforce Bulkification best practices:
 
@@ -96,7 +96,7 @@ The trigger follows Salesforce Bulkification best practices:
 
 ---
 
-# 📚 Collections Used
+#  Collections Used
 
 ### List
 
@@ -119,60 +119,44 @@ Used for:
 
 ---
 
-# 🧪 Test Cases
+#  Test Cases
 
 | Test Case | Expected Result | Status |
 |-----------|-----------------|--------|
-| Valid Application | Record inserted successfully | ✅ Passed |
-| Low CGPA Validation | Error displayed | ✅ Passed |
-| Duplicate Application Validation | Error displayed | ✅ Passed |
-| Last Date Validation | Error displayed | ✅ Passed |
+| Valid Application | Record inserted successfully |  Passed |
+| Low CGPA Validation | Error displayed |  Passed |
+| Duplicate Application Validation | Error displayed | Passed |
+| Last Date Validation | Error displayed | Passed |
 
 ---
 
-# 📸 Test Results
+#  Test Results
 
-## ✅ Test Case 1 – Valid Application
+##  Test Case 1 – Valid Application
 
 ![Valid Application](Screenshots/01_Valid_Application.png)
 
 ---
 
-## ❌ Test Case 2 – Low CGPA Validation
+##  Test Case 2 – Low CGPA Validation
 
 ![Low CGPA Validation](Screenshots/02_Low_CGPA_Error.png)
 
 ---
 
-## ❌ Test Case 3 – Duplicate Application Validation
+##  Test Case 3 – Duplicate Application Validation
 
 ![Duplicate Application](Screenshots/03_Duplicate_Application_Error.png)
 
 ---
 
-## ❌ Test Case 4 – Last Date Validation
+##  Test Case 4 – Last Date Validation
 
 ![Last Date Validation](Screenshots/04_Last_Date_Error.png)
 
 ---
 
-# 📂 Repository Structure
-
-```text
-Salesforce-Bootcamp
-│
-├── ApplicationTrigger.apex
-├── README.md
-└── Screenshots
-    ├── 01_Valid_Application.png
-    ├── 02_Low_CGPA_Error.png
-    ├── 03_Duplicate_Application_Error.png
-    └── 04_Last_Date_Error.png
-```
-
----
-
-# 🎓 Learning Outcomes
+# Learning Outcomes
 
 During this assignment, I learned:
 
@@ -188,11 +172,3 @@ During this assignment, I learned:
 - Using `addError()` for meaningful validation messages
 
 ---
-
-# 👨‍💻 Author
-
-**Darsiguntla Venkata Sai Kumar**
-
-B.Tech – Information Technology
-
-Aspiring Salesforce Developer
