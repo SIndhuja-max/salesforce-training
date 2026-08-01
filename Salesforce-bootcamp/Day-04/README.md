@@ -110,25 +110,28 @@ using JavaScript only.
 
 ## Placement Portal
 
-![Placement Portal](Day-04/Screenshots/01_PlacementPortal.png)
+![Placement Portal](Screenshots/Placement_Portal.png)
 
 ---
 
 ## Welcome Message
 
-![Welcome Message](Day-04/Screenshots/02_ShowWelcomeMessage.png)
+![Welcome Message](Screenshots/Welcome_Page.png)
 
+---
+## data Binding
+![Data Binding](Screenshots/Data_Binding.png)
 ---
 
 ## Status Updated
 
-![Status Applied](Day-04/Screenshots/03_StatusApplied.png)
+![Status Applied](Screenshots/Status_Applied.png)
 
 ---
 
 ## Lightning App Builder
 
-![Lightning App Builder](Day-04/Screenshots/04_LightningAppBuilder.png)
+![Lightning App Builder](Screenshots/Lightning_Page.png)
 
 ---
 
