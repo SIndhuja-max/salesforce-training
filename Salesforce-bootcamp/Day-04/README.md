@@ -110,31 +110,25 @@ using JavaScript only.
 
 ## Placement Portal
 
-![Placement Portal](Screenshots/01_PlacementPortal.png)
+![Placement Portal](Day-04/Screenshots/01_PlacementPortal.png)
 
 ---
 
 ## Welcome Message
 
-![Welcome Message](Screenshots/02_ShowWelcomeMessage.png)
+![Welcome Message](Day-04/Screenshots/02_ShowWelcomeMessage.png)
 
 ---
 
 ## Status Updated
 
-![Status Applied](Screenshots/03_StatusApplied.png)
+![Status Applied](Day-04/Screenshots/03_StatusApplied.png)
 
 ---
 
 ## Lightning App Builder
 
-![Lightning App Builder](Screenshots/04_LightningAppBuilder.png)
-
----
-
-## VS Code Project Structure
-
-![VS Code](Screenshots/05_VSCodeProject.png)
+![Lightning App Builder](Day-04/Screenshots/04_LightningAppBuilder.png)
 
 ---
 
