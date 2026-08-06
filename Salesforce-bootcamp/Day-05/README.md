@@ -168,12 +168,6 @@ Otherwise, an exception message is returned.
 
 ---
 
-## Apex Classes
-
-![Apex Classes](Screenshots/Apex_Classes.png)
-
----
-
 #  Engineering Principles Learned
 
 - Keep business logic separate from the user interface.
