@@ -178,37 +178,31 @@ Implemented using an **Apex Trigger** because the validation compares:
 
 ## Application Date Automation Flow
 
-![Application Date Flow](Flow_Application_Date.png)
+![Application Date Flow](Screenshots/Flow_Application_Date.png)
 
 ---
 
 ## Email Notification Flow
 
-![Email Notification](Email_Notification.png)
-
----
-
-## Validation Rule
-
-![Validation Rule](Validation_Rule.png)
+![Email Notification](Screenshots/Email_Flow.png)
 
 ---
 
 ## Application Date Test
 
-![Application Date Test](Application_Date_Test.png)
+![Application Date Test](Screenshots/Application_Date_Test.png)
 
 ---
 
-## Email Notification Test
+## Email Notification
 
-![Email Test](Email_Test.png)
+![Email Test](Screenshots/Email_Notification.png)
 
 ---
 
 ## Offer Letter Automation Flow
 
-![Offer Letter Flow](Offer_Letter_Flow.png)
+![Offer Letter Flow](Screenshots/Offer_Letter_Flow.png)
 
 ---
 
