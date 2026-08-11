@@ -1,0 +1,296 @@
+<template>
+
+    <div class="portal">
+
+        <!-- HEADER -->
+        <header class="portal-header">
+
+            <div class="brand">
+
+                <div class="brand-icon">
+                    <lightning-icon
+                        icon-name="standard:people"
+                        size="small"
+                        alternative-text="Placement Portal">
+                    </lightning-icon>
+                </div>
+
+                <div>
+                    <h1>Vishnu Placement Portal</h1>
+                    <p>Student Placement Dashboard</p>
+                </div>
+
+            </div>
+
+            <div class="profile">
+
+                <div class="profile-avatar">
+                    P
+                </div>
+
+                <div class="profile-info">
+                    <strong>{studentName}</strong>
+                    <span>{department}</span>
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- WELCOME -->
+        <section class="welcome">
+
+            <div>
+
+                <p class="eyebrow">
+                    STUDENT DASHBOARD
+                </p>
+
+                <h2>
+                    Good morning, {studentName} 👋
+                </h2>
+
+                <p class="welcome-text">
+                    Explore placement opportunities that match your profile
+                    and take the next step in your career.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- STATISTICS -->
+        <section class="stats">
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+                    <lightning-icon
+                        icon-name="standard:account"
+                        size="small">
+                    </lightning-icon>
+                </div>
+
+                <div>
+                    <span>Companies</span>
+                    <strong>{numberOfCompanies}</strong>
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+                    <lightning-icon
+                        icon-name="standard:work_order"
+                        size="small">
+                    </lightning-icon>
+                </div>
+
+                <div>
+                    <span>Open Jobs</span>
+                    <strong>{numberOfJobs}</strong>
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+                    <lightning-icon
+                        icon-name="standard:task"
+                        size="small">
+                    </lightning-icon>
+                </div>
+
+                <div>
+                    <span>Applications</span>
+                    <strong>{applicationsSubmitted}</strong>
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+                    <lightning-icon
+                        icon-name="standard:success"
+                        size="small">
+                    </lightning-icon>
+                </div>
+
+                <div>
+                    <span>Placement Status</span>
+                    <strong>{status}</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ELIGIBLE JOBS -->
+        <section class="content-section">
+
+            <div class="section-header">
+
+                <div>
+                    <h2>Eligible Jobs</h2>
+
+                    <p>
+                        Opportunities you are currently eligible to apply for.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="jobs-container">
+
+               <c-eligible-jobs
+                student-id={studentId}
+                onapplicationsubmitted={handleApplicationSubmitted}>
+               </c-eligible-jobs>
+
+            </div>
+
+        </section>
+
+
+        <!-- APPLICATIONS -->
+        <section class="content-section">
+
+    <div class="section-header">
+
+        <div>
+            <h2>My Applications</h2>
+
+            <p>
+                Track the opportunities you have applied for.
+            </p>
+        </div>
+
+    </div>
+
+
+    <!-- ERROR -->
+
+    <template if:true={applicationsError}>
+
+        <div class="application-state error">
+
+            <h3>Unable to load applications</h3>
+
+            <p>
+                Please refresh the page and try again.
+            </p>
+
+        </div>
+
+    </template>
+
+
+    <!-- APPLICATIONS -->
+
+    <template if:true={hasApplications}>
+
+        <div class="applications-list">
+
+            <template
+                for:each={applications}
+                for:item="application">
+
+                <article
+                    key={application.Id}
+                    class="application-card">
+
+                    <div class="application-info">
+
+                        <span class="application-label">
+                            JOB APPLICATION
+                        </span>
+
+                        <h3>
+                            {application.Job__r.Name}
+                        </h3>
+
+                        <p>
+                            Applied on:
+                            {application.Application_Date__c}
+                        </p>
+
+                    </div>
+
+
+                    <div class="application-status">
+
+    <span
+        class="status-badge"
+        data-status={application.Status__c}>
+
+        {application.Status__c}
+
+    </span>
+
+</div>
+
+                </article>
+
+            </template>
+
+        </div>
+
+    </template>
+
+
+    <!-- EMPTY -->
+
+    <template if:false={hasApplications}>
+
+        <template if:false={applicationsError}>
+
+            <div class="empty-applications">
+
+                <lightning-icon
+                    icon-name="standard:task"
+                    size="medium">
+                </lightning-icon>
+
+                <h3>
+                    No applications yet
+                </h3>
+
+                <p>
+                    Apply for an eligible job and your application
+                    will appear here.
+                </p>
+
+            </div>
+
+        </template>
+
+    </template>
+
+</section>
+
+        <!-- FOOTER -->
+        <footer>
+
+            <span>
+                Vishnu Institute of Technology
+            </span>
+
+            <span>
+                Placement Management System
+            </span>
+
+        </footer>
+
+    </div>
+
+</template>

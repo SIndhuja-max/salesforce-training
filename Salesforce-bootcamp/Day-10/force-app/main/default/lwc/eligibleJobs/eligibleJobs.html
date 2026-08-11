@@ -1,0 +1,104 @@
+<template>
+
+    <div class="jobs-container">
+
+        <!-- LOADING -->
+
+        <template if:true={isLoading}>
+
+            <div class="state">
+
+                <lightning-spinner
+                    alternative-text="Loading eligible jobs"
+                    size="small">
+                </lightning-spinner>
+
+                <p>Finding opportunities for you...</p>
+
+            </div>
+
+        </template>
+
+
+        <!-- ERROR -->
+
+        <template if:false={isLoading}>
+
+            <template if:true={error}>
+
+                <div class="state error">
+
+                    <lightning-icon
+                        icon-name="utility:error"
+                        size="small"
+                        alternative-text="Error">
+                    </lightning-icon>
+
+                    <h3>
+                        Unable to load eligible jobs
+                    </h3>
+
+                    <p>
+                        Please try again or contact the Placement Office.
+                    </p>
+
+                </div>
+
+            </template>
+
+
+            <!-- SUCCESS -->
+
+            <template if:false={error}>
+
+                <template if:true={displayJobs.length}>
+
+                    <template
+                        for:each={displayJobs}
+                        for:item="job">
+
+                        <c-job-card
+                            key={job.Id}
+                            job={job}
+                            is-applied={job.isApplied}
+                            is-submitting={job.isSubmitting}
+                            onapply={handleApply}>
+                        </c-job-card>
+
+                    </template>
+
+                </template>
+
+
+                <!-- EMPTY -->
+
+                <template if:false={displayJobs.length}>
+
+                    <div class="state">
+
+                        <lightning-icon
+                            icon-name="utility:search"
+                            size="small"
+                            alternative-text="No jobs">
+                        </lightning-icon>
+
+                        <h3>
+                            No eligible jobs right now
+                        </h3>
+
+                        <p>
+                            New opportunities will appear here when they
+                            become available.
+                        </p>
+
+                    </div>
+
+                </template>
+
+            </template>
+
+        </template>
+
+    </div>
+
+</template>

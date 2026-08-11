@@ -1,0 +1,76 @@
+<template>
+
+    <article class="job-card">
+
+        <div class="job-content">
+
+            <div class="job-company">
+                PLACEMENT OPPORTUNITY
+            </div>
+
+            <h2 class="job-title">
+                {job.Name}
+            </h2>
+
+            <div class="job-summary">
+
+                <span>
+                    Minimum CGPA:
+                    <strong>{job.Minimum_CGPA__c}</strong>
+                </span>
+
+                <span>
+                    Deadline:
+                    <strong>{job.Last_Date__c}</strong>
+                </span>
+
+            </div>
+
+
+            <template if:true={showDetails}>
+
+                <div class="job-details">
+
+                    <div>
+                        <span>Minimum CGPA</span>
+                        <strong>{job.Minimum_CGPA__c}</strong>
+                    </div>
+
+                    <div>
+                        <span>Application Deadline</span>
+                        <strong>{job.Last_Date__c}</strong>
+                    </div>
+
+                    <div>
+                        <span>Job ID</span>
+                        <strong>{job.Id}</strong>
+                    </div>
+
+                </div>
+
+            </template>
+
+        </div>
+
+
+        <div class="job-actions">
+
+            <lightning-button
+                label={detailsButtonLabel}
+                variant="neutral"
+                onclick={handleViewDetails}>
+            </lightning-button>
+
+
+            <lightning-button
+                label={applyButtonLabel}
+                variant="brand"
+                disabled={applyButtonDisabled}
+                onclick={handleApply}>
+            </lightning-button>
+
+        </div>
+
+    </article>
+
+</template>
