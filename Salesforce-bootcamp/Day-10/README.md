@@ -257,6 +257,10 @@ This provides clear feedback to the student during different stages of the appli
 
 ![My Applications](Screenshots/my-applications.png)
 
+## Dashboard
+
+![Dashboard](Screenshots/My-Dashboard.png)
+
 ---
 
 # Engineering Principles
