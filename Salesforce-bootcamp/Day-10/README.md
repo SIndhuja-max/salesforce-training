@@ -247,11 +247,11 @@ This provides clear feedback to the student during different stages of the appli
 
 ## Eligibility Validation
 
-![Eligibility Validation](Screenshots/eligibility-validation.png)
+![Eligibility Validation](Screenshots/eligibility-failure.png)
 
 ## Deadline Validation
 
-![Deadline Validation](Screenshots/deadline-validation.png)
+![Deadline Validation](Screenshots/deadline-failure.png)
 
 ## My Applications
 
