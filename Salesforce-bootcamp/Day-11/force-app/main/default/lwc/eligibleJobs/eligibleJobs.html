@@ -1,0 +1,97 @@
+<template>
+
+    <div class="jobs-container">
+
+        <!-- LOADING -->
+        <template if:true={isLoading}>
+
+            <div class="state">
+
+                <lightning-spinner
+                    alternative-text="Loading eligible jobs"
+                    size="small">
+                </lightning-spinner>
+
+                <p>Finding opportunities for you...</p>
+
+            </div>
+
+        </template>
+
+
+        <!-- ERROR -->
+        <template if:false={isLoading}>
+
+            <template if:true={error}>
+
+                <div class="state error">
+
+                    <lightning-icon
+                        icon-name="utility:error"
+                        size="small"
+                        alternative-text="Error">
+                    </lightning-icon>
+
+                    <h3>
+                        Unable to load eligible jobs
+                    </h3>
+
+                    <p>
+                        Please try again or contact the Placement Office.
+                    </p>
+
+                </div>
+
+            </template>
+
+
+            <!-- SUCCESS -->
+            <template if:false={error}>
+
+                <template if:true={displayJobs.length}>
+
+                    <template
+                        for:each={displayJobs}
+                        for:item="job">
+
+                        <c-job-card
+                            key={job.Id}
+                            job={job}
+                            is-applied={job.isApplied}
+                            is-submitting={job.isSubmitting}
+                            onviewdetails={handleViewDetails}
+                            onapply={handleApply}>
+                        </c-job-card>
+
+                    </template>
+
+
+                    <!-- SELECTED JOB DETAILS -->
+                    <template if:true={selectedJob}>
+
+                        <c-job-details
+                            job={selectedJob}>
+                        </c-job-details>
+
+                    </template>
+
+                </template>
+
+
+                <!-- EMPTY -->
+                <template if:false={displayJobs.length}>
+
+                    <c-empty-state
+                    title="No eligible jobs right now"
+                    message="New opportunities will appear here when they become available.">
+                    </c-empty-state>
+
+                </template>
+
+            </template>
+
+        </template>
+
+    </div>
+
+</template>

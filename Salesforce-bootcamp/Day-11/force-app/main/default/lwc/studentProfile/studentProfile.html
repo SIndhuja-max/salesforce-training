@@ -1,0 +1,159 @@
+<template>
+
+    <section class="profile-card">
+
+        <!-- HEADER -->
+        <div class="profile-header">
+
+            <div>
+                <p class="eyebrow">STUDENT PROFILE</p>
+
+                <h2>{studentName}</h2>
+
+                <p class="subtitle">
+                    Keep your profile updated to receive relevant placement opportunities.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- LOADING -->
+        <template if:true={isLoading}>
+
+            <div class="state">
+
+                <lightning-spinner
+                    alternative-text="Loading profile"
+                    size="small">
+                </lightning-spinner>
+
+                <p>Loading your profile...</p>
+
+            </div>
+
+        </template>
+
+
+        <!-- ERROR -->
+        <template if:false={isLoading}>
+
+            <template if:true={error}>
+
+                <div class="state error">
+
+                    <lightning-icon
+                        icon-name="utility:error"
+                        size="small"
+                        alternative-text="Error">
+                    </lightning-icon>
+
+                    <h3>
+                        Unable to load your profile
+                    </h3>
+
+                    <p>
+                        Please refresh the page and try again.
+                    </p>
+
+                </div>
+
+            </template>
+
+
+            <!-- PROFILE FORM -->
+            <template if:false={error}>
+
+                <div class="form-grid">
+
+                    <!-- PHONE -->
+                    <lightning-input
+                        type="tel"
+                        label="Phone"
+                        value={phone}
+                        data-field="phone"
+                        onchange={handleChange}
+                        required>
+                    </lightning-input>
+
+
+                    <!-- EMAIL -->
+                    <lightning-input
+                        type="email"
+                        label="Email"
+                        value={email}
+                        data-field="email"
+                        onchange={handleChange}
+                        required>
+                    </lightning-input>
+
+
+                    <!-- BRANCH -->
+                    <lightning-input
+                        type="text"
+                        label="Branch"
+                        value={branch}
+                        data-field="branch"
+                        onchange={handleChange}
+                        required>
+                    </lightning-input>
+
+
+                    <!-- CGPA -->
+                    <lightning-input
+                        type="number"
+                        label="CGPA"
+                        value={cgpa}
+                        data-field="cgpa"
+                        min="0"
+                        max="10"
+                        step="0.01"
+                        onchange={handleChange}
+                        required>
+                    </lightning-input>
+
+
+                    <!-- SKILLS -->
+                    <lightning-textarea
+                        label="Skills"
+                        value={skills}
+                        data-field="skills"
+                        onchange={handleChange}
+                        placeholder="Example: Java, Python, SQL, Salesforce"
+                        required>
+                    </lightning-textarea>
+
+
+                    <!-- PREFERRED LOCATION -->
+                    <lightning-input
+                        type="text"
+                        label="Preferred Location"
+                        value={preferredLocation}
+                        data-field="preferredLocation"
+                        onchange={handleChange}
+                        placeholder="Example: Hyderabad"
+                        required>
+                    </lightning-input>
+
+                </div>
+
+
+                <!-- ACTIONS -->
+                <div class="form-actions">
+
+                    <lightning-button
+                        label="Save Profile"
+                        variant="brand"
+                        onclick={handleSave}
+                        disabled={isSaving}>
+                    </lightning-button>
+
+                </div>
+
+            </template>
+
+        </template>
+
+    </section>
+
+</template>

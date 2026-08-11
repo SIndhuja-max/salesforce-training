@@ -1,0 +1,36 @@
+<template>
+
+    <template if:true={hasJob}>
+
+        <section class="job-details">
+
+            <div class="job-header">
+                <p class="eyebrow">JOB DETAILS</p>
+
+                <h2>{job.Name}</h2>
+            </div>
+
+            <div class="details-grid">
+
+                <div class="detail-item">
+                    <span>Minimum CGPA</span>
+                    <strong>{job.Minimum_CGPA__c}</strong>
+                </div>
+
+                <div class="detail-item">
+                    <span>Application Deadline</span>
+                    <strong>{job.Last_Date__c}</strong>
+                </div>
+
+                <div class="detail-item">
+                    <span>Job ID</span>
+                    <strong>{job.Id}</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+    </template>
+
+</template>

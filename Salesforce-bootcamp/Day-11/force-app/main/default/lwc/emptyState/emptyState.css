@@ -1,0 +1,27 @@
+.empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 24px;
+    border: 1px dashed #d8dde6;
+    border-radius: 12px;
+    background: #fafbfc;
+}
+
+.icon-container {
+    margin-bottom: 12px;
+}
+
+.empty-state h3 {
+    margin: 8px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.empty-state p {
+    max-width: 480px;
+    margin: 0 0 20px;
+    font-size: 14px;
+}

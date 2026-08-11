@@ -1,0 +1,31 @@
+<template>
+
+    <div class="empty-state">
+
+        <div class="icon-container">
+
+            <lightning-icon
+                icon-name="utility:search"
+                size="medium"
+                alternative-text="No results">
+            </lightning-icon>
+
+        </div>
+
+        <h3>{title}</h3>
+
+        <p>{message}</p>
+
+        <template if:true={hasAction}>
+
+            <lightning-button
+                label={actionLabel}
+                variant="brand"
+                onclick={handleAction}>
+            </lightning-button>
+
+        </template>
+
+    </div>
+
+</template>
