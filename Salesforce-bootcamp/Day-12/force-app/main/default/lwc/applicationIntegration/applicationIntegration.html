@@ -1,0 +1,238 @@
+<template>
+
+    <lightning-card
+        title="Candidate Integration"
+        icon-name="standard:integration">
+
+        <div class="slds-p-around_medium">
+
+            <!-- ERROR -->
+
+            <template if:true={error}>
+
+                <div class="slds-text-color_error slds-m-bottom_medium">
+
+                    Unable to load integration records.
+
+                </div>
+
+            </template>
+
+
+            <!-- APPLICATION LIST -->
+
+            <template if:true={displayApplications.length}>
+
+                <div class="slds-scrollable_x">
+
+                    <table
+                        class="slds-table
+                               slds-table_cell-buffer
+                               slds-table_bordered
+                               slds-table_striped">
+
+                        <thead>
+
+                            <tr class="slds-line-height_reset">
+
+                                <th scope="col">
+                                    <div class="slds-truncate">
+                                        Student
+                                    </div>
+                                </th>
+
+                                <th scope="col">
+                                    <div class="slds-truncate">
+                                        Job
+                                    </div>
+                                </th>
+
+                                <th scope="col">
+                                    <div class="slds-truncate">
+                                        Application Status
+                                    </div>
+                                </th>
+
+                                <th scope="col">
+                                    <div class="slds-truncate">
+                                        Integration Status
+                                    </div>
+                                </th>
+
+                                <th scope="col">
+                                    <div class="slds-truncate">
+                                        External Candidate
+                                    </div>
+                                </th>
+
+                                <th scope="col">
+                                    <div class="slds-truncate">
+                                        Last Attempt
+                                    </div>
+                                </th>
+
+                                <th scope="col">
+                                    <div class="slds-truncate">
+                                        Error
+                                    </div>
+                                </th>
+
+                                <th scope="col">
+                                    <div class="slds-truncate">
+                                        Action
+                                    </div>
+                                </th>
+
+                            </tr>
+
+                        </thead>
+
+
+                        <tbody>
+
+                            <template
+                                for:each={displayApplications}
+                                for:item="application">
+
+                                <tr key={application.Id}>
+
+                                    <!-- STUDENT -->
+
+                                    <td>
+
+                                        <div class="slds-truncate">
+
+                                            {application.Student__r.Name}
+
+                                        </div>
+
+                                    </td>
+
+
+                                    <!-- JOB -->
+
+                                    <td>
+
+                                        <div class="slds-truncate">
+
+                                            {application.Job__r.Name}
+
+                                        </div>
+
+                                    </td>
+
+
+                                    <!-- APPLICATION STATUS -->
+
+                                    <td>
+
+                                        <div class="slds-truncate">
+
+                                            {application.Status__c}
+
+                                        </div>
+
+                                    </td>
+
+
+                                    <!-- INTEGRATION STATUS -->
+
+                                    <td>
+
+                                        <div class="slds-truncate">
+
+                                            {application.Integration_Status__c}
+
+                                        </div>
+
+                                    </td>
+
+
+                                    <!-- EXTERNAL CANDIDATE -->
+
+                                    <td>
+
+                                        <div class="slds-truncate">
+
+                                            {application.External_Candidate_Id__c}
+
+                                        </div>
+
+                                    </td>
+
+
+                                    <!-- LAST ATTEMPT -->
+
+                                    <td>
+
+                                        <div class="slds-truncate">
+
+                                            {application.Last_Integration_Attempt__c}
+
+                                        </div>
+
+                                    </td>
+
+
+                                    <!-- ERROR -->
+
+                                    <td>
+
+                                        <div class="slds-truncate">
+
+                                            {application.Integration_Error__c}
+
+                                        </div>
+
+                                    </td>
+
+
+                                    <!-- RETRY -->
+
+                                    <td>
+
+                                        <lightning-button
+    label="Retry Sync"
+    variant="brand"
+    size="small"
+    data-id={application.Id}
+    disabled={application.isRetryDisabled}
+    onclick={handleRetry}>
+</lightning-button>
+
+                                    </td>
+
+                                </tr>
+
+                            </template>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </template>
+
+
+            <!-- EMPTY -->
+
+            <template if:false={displayApplications.length}>
+
+                <div
+                    class="slds-align_absolute-center
+                           slds-p-around_large">
+
+                    <p>
+                        No selected applications found.
+                    </p>
+
+                </div>
+
+            </template>
+
+        </div>
+
+    </lightning-card>
+
+</template>
